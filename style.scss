@@ -49,8 +49,6 @@ body {
 }
 
 .title-button {
-  width: 247px;
-  height: 66px;
   color: $white-color;
   font-family: Montserrat;
   font-size: 24px;
@@ -60,6 +58,8 @@ body {
   border: 1px solid $black-color;
   border-radius: 60px;
   background: $black-color;
+  padding: 16px 65px 16px 65px;
+  text-decoration: none;
 
   &:hover {
     background: $white-color;

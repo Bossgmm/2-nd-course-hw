@@ -47,8 +47,6 @@ body {
 }
 
 .title-button {
-  width: 247px;
-  height: 66px;
   color: #ffffff;
   font-family: Montserrat;
   font-size: 24px;
@@ -58,6 +56,8 @@ body {
   border: 1px solid #202027;
   border-radius: 60px;
   background: #202027;
+  padding: 16px 65px 16px 65px;
+  text-decoration: none;
 }
 .title-button:hover {
   background: #ffffff;
