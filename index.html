@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мини-игры</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="top center">
+        <header class="header">
+            <h1 class="title">Добро пожаловать <br>на мой сайт мини-игр</h1>
+            <p class="subtitle">Тебе предстоит пройти несколько увлекательных игр. <br>Если готов, нажимай <span class="subtitle__span">«Поехали!»</span> и <span class="subtitle__span">приступай</span>.</p>
+           <a href="#about" class="title-button">Поехали!</a>
+        </header>
+    </section>
+
+    <section id="about" class="about center">
+        <h1 class="about-title">Об играх</h1>
+        <p class="about-subtitle">В моей коллекции представлено 6 игр на разные темы. <br>Игры несложные — в них может поиграть каждый. <br>
+Все игры доступны для пользования.</p>
+        <div class="games-box">
+            <a class="games-box__link" href="#game1">
+                <article class="game">
+                    <img class="game__img" src="images/number.png" alt="Угадай число">
+                    <small class="game__numb">Игра №1</small>
+                    <h3 class="game__name">Угадай число</h3>
+                </article>
+            </a>
+
+            <a class="games-box__link" href="#game2">
+                <article class="game">
+                    <img class="game__img" src="images/arithmetic.png" alt="Простая арифметика">
+                    <small class="game__numb">Игра №2</small>
+                    <h3 class="game__name">Простая арифметика</h3>
+                </article>
+            </a>
+
+            <a class="games-box__link" href="#game3">
+                <article class="game">
+                    <img class="game__img" src="images/text.png" alt="Переверни текст">
+                    <small class="game__numb">Игра №3</small>
+                    <h3 class="game__name">Переверни текст</h3>
+                </article>
+            </a>
+
+            <a class="games-box__link" href="#game4">
+                <article class="game">
+                    <img class="game__img" src="images/rps.png" alt="Камень, ножницы, бумага">
+                    <small class="game__numb">Игра №4</small>
+                    <h3 class="game__name">Камень, ножницы, бумага</h3>
+                </article>
+            </a>
+
+            <a class="games-box__link" href="#game5">
+                <article class="game">
+                    <img class="game__img" src="images/quiz.png" alt="Простая викторина">
+                    <small class="game__numb">Игра №5</small>
+                    <h3 class="game__name">Простая викторина</h3>
+                </article>
+            </a>
+
+            <a class="games-box__link" href="#game6">
+                <article class="game">
+                    <img  class="game__img" src="images/colors.png" alt="Генератор случайных цветов">
+                    <small class="game__numb">Игра №6</small>
+                    <h3 class="game__name">Генератор случайных цветов</h3>
+                </article>
+            </a>
+        </div>
+    </section>
+
+    <section class="mini-games center">
+        <h1 class="mini-games__title">Мини-игры</h1>
+
+        <div class="mini-games-box">
+            <article id="game1" class="game-big">
+                <img class="game-big__img" src="images/big-number.png" alt="Угадай число">
+                <div class="game-big__second">
+                    <h2 class="game-big__name">Угадай число</h2>
+                    <p class="game-big__desc">Попробуй угадать случайное число от 1 до 100.</p>
+                    <button class="game-big__button">Играть!</button>
+                </div>
+            </article>
+
+            <article id="game2" class="game-big">
+                <img class="game-big__img" src="images/big-arithmetic.png" alt="Простая арифметика">
+                <div class="game-big__second">
+                    <h2 class="game-big__name">Простая арифметика</h2>
+                    <p class="game-big__desc">Попробуй решить простые арифметические задачи.</p>
+                    <button class="game-big__button">Играть!</button>
+                </div>
+            </article>
+
+            <article id="game3" class="game-big">
+                <img class="game-big__img" src="images/big-text.png" alt="Переверни текст">
+                <div class="game-big__second">
+                    <h2 class="game-big__name">Переверни текст</h2>
+                    <p class="game-big__desc">Попробуй ввести текст, который будет перевернут.</p>
+                    <button class="game-big__button">Играть!</button>
+                </div>
+            </article>
+
+            <article id="game4" class="game-big">
+                <img class="game-big__img" src="images/big-rps.png" alt="Камень, ножницы, бумага">
+                <div class="game-big__second">
+                    <h2 class="game-big__name">Камень, ножницы, бумага</h2>
+                    <p class="game-big__desc">Сыграй в популярную игру против компьютера.</p>
+                    <button class="game-big__button">Играть!</button>
+                </div>
+            </article>
+
+            <article id="game5" class="game-big">
+                <img class="game-big__img" src="images/big-quiz.png" alt="Простая викторина">
+                <div class="game-big__second">
+                    <h2 class="game-big__name">Простая викторина</h2>
+                    <p class="game-big__desc">Отвечай на вопросы викторины с вариантами ответов.</p>
+                    <button class="game-big__button">Играть!</button>
+                </div>
+            </article>
+
+            <article id="game6" class="game-big">
+                <img class="game-big__img" src="images/big-colors.png" alt="Генератор случайных цветов">
+                <div class="game-big__second">
+                    <h2 class="game-big__name">Генератор случайных цветов</h2>
+                    <p class="game-big__desc">Игра, в которой при клике на кнопку фон страницы меняется на случайный.</p>
+                    <button class="game-big__button">Играть!</button>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer class="footer center">
+        <p class="footer__text">Все права защищены.</p>
+    </footer>
+
+
+    
+</body>
+</html>
