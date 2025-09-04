@@ -1,0 +1,42 @@
+@media (max-width: 767px) {
+    
+    .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+    .top{
+        text-align: center;
+    }
+
+    .title {
+        padding-top: 147px;
+        font-size: 40px;
+    }
+
+    .subtitle{
+        padding-bottom: 52px;
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 100%;
+    }
+
+    .title-button{
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0%;
+        padding: 16px 103px 16px 103px;
+    }
+
+    .about{
+        display: none;
+    }
+
+    .mini-games{
+        &__title{
+            padding-bottom: 40px;
+            font-size: 40px;
+            line-height: 100%;
+        }
+    }
+}
