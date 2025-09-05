@@ -42,7 +42,6 @@ body {
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0px;
-
   &__span {
     font-weight: 700;
   }
@@ -64,6 +63,10 @@ body {
   &:hover {
     background: $white-color;
     color: $black-color;
+  }
+
+  &-mob{
+    display: none;
   }
 }
 
@@ -231,3 +234,4 @@ body {
     letter-spacing: 0px;
   }
 }
+@import "mob";
