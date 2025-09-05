@@ -63,7 +63,7 @@ body {
   background: #ffffff;
   color: #202027;
 }
-.title-button__mob {
+.title-button-mob {
   display: none;
 }
 
@@ -243,7 +243,7 @@ body {
     background: #202027;
     color: #ffffff;
   }
-  .title-button__mob {
+  .title-button-mob {
     display: inline;
   }
   .about {
