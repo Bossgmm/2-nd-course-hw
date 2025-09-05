@@ -63,6 +63,9 @@ body {
   background: #ffffff;
   color: #202027;
 }
+.title-button__mob {
+  display: none;
+}
 
 .about {
   background-color: #202027;
@@ -234,6 +237,14 @@ body {
     line-height: 20px;
     letter-spacing: 0%;
     padding: 16px 103px 16px 103px;
+    display: none;
+  }
+  .title-button:hover {
+    background: #202027;
+    color: #ffffff;
+  }
+  .title-button__mob {
+    display: inline;
   }
   .about {
     display: none;
@@ -273,6 +284,10 @@ body {
     line-height: 20px;
     width: 285px;
     height: 55px;
+  }
+  .game-big__button:hover {
+    background: #202027;
+    color: #ffffff;
   }
   .footer {
     height: 100px;

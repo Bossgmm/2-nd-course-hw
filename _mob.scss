@@ -26,6 +26,17 @@
         line-height: 20px;
         letter-spacing: 0%;
         padding: 16px 103px 16px 103px;
+        display: none;
+        &:hover{
+            background: $black-color;
+            color: $white-color;
+        }
+
+        &__mob{
+            display: inline;
+        }
+
+
     }
 
     .about{
@@ -78,6 +89,12 @@
             line-height: 20px;
             width: 285px;
             height: 55px;
+
+            &:hover{
+                background: $black-color;
+                color: $white-color;
+            }
+
         }
     }
 

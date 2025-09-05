@@ -64,6 +64,10 @@ body {
     background: $white-color;
     color: $black-color;
   }
+
+  &__mob{
+    display: none;
+  }
 }
 
 .about {
