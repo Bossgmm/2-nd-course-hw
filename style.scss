@@ -17,12 +17,52 @@ body {
   padding-right: calc(50% - 600px);
 }
 
+
+.star{
+  position: absolute;
+}
+
+.bigStar{
+  top: -333px;
+
+  right: -488px;
+}
+
+.star1{
+  top: 94px;
+  left: 63px;
+}
+
+.star2{
+  top: 69px;
+  left: 156px;
+}
+
+.star3{
+  top: 538px;
+  left: 948px;
+}
+
+.star4{
+  top: 568px;
+  left: 1013px;
+}
+
+.line1{
+  top: -10px;
+  right: 269px;
+}
+
+.header{
+  position: relative;
+}
+
 .top {
   background-color: $lg-color;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 750px;
+  height: 800px;
 }
 
 .title {
@@ -31,19 +71,19 @@ body {
   color: $black-color;
   font-size: 64px;
   font-weight: 700;
-  line-height: 100%;
+  line-height: 78px;
   letter-spacing: 0px;
 }
 
 .subtitle {
-  padding-bottom: 48px;
+  padding-bottom: 64px;
   color: $black-color;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0px;
   &__span {
-    font-weight: 700;
+    font-weight: 600;
   }
 }
 
@@ -68,6 +108,12 @@ body {
   &-mob{
     display: none;
   }
+}
+
+.strip{
+  height: 90px;
+  background-color: $g-color;
+  min-width: 376px;
 }
 
 .about {
@@ -138,7 +184,8 @@ body {
 .games-box {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
+  column-gap: 32px;
+  row-gap: 32px;
 
   &__link {
     text-decoration: none;
