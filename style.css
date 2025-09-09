@@ -20,6 +20,10 @@ body {
   position: absolute;
 }
 
+.mob {
+  display: none;
+}
+
 .bigStar {
   top: -333px;
   right: -488px;
@@ -50,6 +54,26 @@ body {
   right: 269px;
 }
 
+.line2 {
+  top: 254px;
+  right: 231px;
+}
+
+.line3 {
+  top: 379px;
+  right: -5px;
+}
+
+.line4 {
+  top: 663px;
+  right: 61px;
+}
+
+.triangle {
+  top: 468px;
+  right: 113px;
+}
+
 .header {
   position: relative;
 }
@@ -60,6 +84,9 @@ body {
   background-position: center;
   background-size: cover;
   height: 800px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
 }
 
 .title {
@@ -109,6 +136,11 @@ body {
   height: 90px;
   background-color: #bcec30;
   min-width: 376px;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  left: 0;
+  z-index: 2;
 }
 
 .about {
@@ -265,14 +297,43 @@ body {
     padding-left: 16px;
     padding-right: 16px;
   }
+  .star {
+    display: none;
+  }
+  .mob {
+    display: inline;
+  }
+  .star1-mob {
+    top: 97px;
+    left: 37px;
+  }
+  .star2-mob {
+    top: 64px;
+    left: 91px;
+  }
+  .star3-mob {
+    top: 557px;
+    right: 86px;
+  }
+  .star4-mob {
+    top: 580px;
+    right: 34px;
+  }
+  .bigStar-mob {
+    top: -103px;
+    right: -115px;
+  }
   .top {
     text-align: center;
     height: 700px;
   }
+  .transfer {
+    display: none;
+  }
   .title {
     padding-top: 147px;
     font-size: 40px;
-    line-height: 100%;
+    line-height: 120%;
   }
   .subtitle {
     padding-bottom: 52px;

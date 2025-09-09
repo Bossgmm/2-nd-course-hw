@@ -5,15 +5,50 @@
     padding-right: 16px;
   }
 
+  .star{
+    display: none;
+  }
+
+  .mob{
+    display: inline;
+  }
+
+  .star1-mob{
+    top: 97px;
+    left: 37px;
+  }
+
+  .star2-mob{
+    top: 64px;
+    left: 91px;
+  }
+
+  .star3-mob{
+    top: 557px;
+    right: 86px;
+  }
+
+  .star4-mob{
+    top: 580px;
+    right: 34px;
+  }
+
+  .bigStar-mob{
+    top: -103px;
+    right: -115px;
+  }
+
     .top{
         text-align: center;
         height: 700px;
     }
-
+    .transfer{
+        display: none;
+    }
     .title {
         padding-top: 147px;
         font-size: 40px;
-        line-height: 100%;
+        line-height: 120%;
     }
 
     .subtitle{
