@@ -143,9 +143,28 @@ body {
   z-index: 2;
 }
 
+.about__BigStar {
+  top: 77px;
+  right: -142px;
+  z-index: -1;
+}
+
+.about__star1 {
+  top: 710px;
+  left: 25px;
+}
+
+.about__star2 {
+  top: 822px;
+  left: 40px;
+}
+
 .about {
   background-color: #202027;
   padding-bottom: 50px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
 }
 .about-title {
   color: #ffffff;
@@ -218,9 +237,30 @@ body {
   color: #202027;
 }
 
+.mini__star1 {
+  top: 93px;
+  right: 124px;
+}
+
+.mini__star2 {
+  top: 126px;
+  right: 45px;
+}
+
+.mini__star3 {
+  bottom: 45px;
+  right: 150px;
+}
+
+.mini__star4 {
+  bottom: 65px;
+  right: 52px;
+}
+
 .mini-games {
   padding-top: 46px;
   background-color: #202027;
+  position: relative;
 }
 .mini-games__title {
   padding-bottom: 72px;
