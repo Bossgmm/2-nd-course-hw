@@ -171,6 +171,7 @@ body {
   width: 378px;
   transition: 0.5s;
   cursor: pointer;
+  height: 100%;
 }
 .game__img {
   padding-bottom: 40px;
@@ -181,7 +182,12 @@ body {
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0px;
-  border-radius: 15px;
+  border-radius: 52.58px;
+  background: rgb(247, 247, 247);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: inline-block;
   margin-left: 32px;
 }
@@ -189,7 +195,7 @@ body {
   padding-left: 32px;
   padding-right: 32px;
   padding-top: 26px;
-  padding-bottom: 36px;
+  padding-bottom: 32px;
   color: #202027;
   font-size: 32px;
   font-weight: 700;
@@ -204,9 +210,8 @@ body {
 .games-box {
   display: flex;
   flex-wrap: wrap;
-  -moz-column-gap: 32px;
-       column-gap: 32px;
-  row-gap: 32px;
+  gap: 32px;
+  justify-content: center;
 }
 .games-box__link {
   text-decoration: none;
@@ -285,7 +290,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.footer_text {
+.footer__text {
   font-size: 24px;
   font-weight: 600;
   line-height: 100%;
@@ -373,6 +378,7 @@ body {
   .game-big {
     display: unset;
     max-width: 343px;
+    height: 100%;
   }
   .game-big__second {
     padding: 29px 29px 32px 29px;
@@ -385,10 +391,11 @@ body {
     line-height: 100%;
     letter-spacing: 0px;
     padding-bottom: 16px;
+    line-height: 40px;
   }
   .game-big__desc {
     font-size: 16px;
-    line-height: 100%;
+    line-height: 20px;
     letter-spacing: 0px;
     padding-bottom: 32px;
   }
