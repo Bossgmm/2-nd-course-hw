@@ -17,12 +17,79 @@ body {
   padding-right: calc(50% - 600px);
 }
 
+
+.star{
+  position: absolute;
+}
+
+.mob{
+  display: none;
+}
+
+.bigStar{
+  top: -333px;
+
+  right: -488px;
+}
+
+.star1{
+  top: 94px;
+  left: 63px;
+}
+
+.star2{
+  top: 69px;
+  left: 156px;
+}
+
+.star3{
+  top: 538px;
+  left: 948px;
+}
+
+.star4{
+  top: 568px;
+  left: 1013px;
+}
+
+.line1{
+  top: -10px;
+  right: 269px;
+}
+
+.line2{
+  top: 254px;
+  right: 231px;
+}
+
+.line3{
+  top: 379px;
+  right: -5px;
+}
+
+.line4{
+  top: 663px;
+  right: 61px;
+}
+
+.triangle{
+  top: 468px;
+  right: 113px;
+}
+
+.header{
+  position: relative;
+}
+
 .top {
   background-color: $lg-color;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 750px;
+  height: 800px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
 }
 
 .title {
@@ -31,20 +98,19 @@ body {
   color: $black-color;
   font-size: 64px;
   font-weight: 700;
-  line-height: 100%;
+  line-height: 78px;
   letter-spacing: 0px;
 }
 
 .subtitle {
-  padding-bottom: 48px;
+  padding-bottom: 64px;
   color: $black-color;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0px;
-
   &__span {
-    font-weight: 700;
+    font-weight: 600;
   }
 }
 
@@ -65,11 +131,45 @@ body {
     background: $white-color;
     color: $black-color;
   }
+
+  &-mob{
+    display: none;
+  }
+}
+
+.strip{
+  height: 90px;
+  background-color: $g-color;
+  min-width: 376px;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  left: 0;
+  z-index: 2;
+}
+
+.about__BigStar{
+  top: 77px;
+  right: -142px;
+  z-index: -1;
+}
+
+.about__star1{
+  top: 710px;
+  left: 25px;
+}
+
+.about__star2{
+  top: 822px;
+  left: 40px;
 }
 
 .about {
   background-color: $black-color;
   padding-bottom: 50px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
 
   &-title {
     color: $white-color;
@@ -97,8 +197,7 @@ body {
   width: 378px;
   transition: 0.5s;
   cursor: pointer;
-
-  
+  height: 100%;
 
   &__img {
     padding-bottom: 40px;
@@ -110,15 +209,21 @@ body {
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0px;
-    border-radius: 15px;
+    border-radius: 52.58px;
+    background: rgba(247, 247, 247, 1);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: inline-block;
     margin-left: 32px;
+
   }
   &__name {
     padding-left: 32px;
     padding-right: 32px;
     padding-top: 26px;
-    padding-bottom: 36px;
+    padding-bottom: 32px;
     color: $black-color;
     font-size: 32px;
     font-weight: 700;
@@ -133,20 +238,42 @@ body {
 }
 
 .games-box {
+
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
-
+  justify-content: center;
   &__link {
     text-decoration: none;
     color: $black-color;
   }
+  
+}
+
+.mini-star1{
+  top: 93px;
+  right: 124px;
+}
+
+.mini-star2{
+  top: 126px;
+  right: 45px;
+}
+
+.mini-star3{
+  bottom: 45px;
+  right: 150px;
+}
+
+.mini-star4{
+  bottom: 65px;
+  right: 52px;
 }
 
 .mini-games {
   padding-top: 46px;
   background-color: $black-color;
-
+  position: relative;
   &__title {
     padding-bottom: 72px;
     color: $white-color;
@@ -224,10 +351,11 @@ body {
   justify-content: center;
   align-items: center;
 
-  &_text {
+  &__text {
     font-size: 24px;
     font-weight: 600;
     line-height: 100%;
     letter-spacing: 0px;
   }
 }
+@import "mob";

@@ -1,0 +1,152 @@
+@media (max-width: 767px) {
+    
+    .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .star{
+    display: none;
+  }
+
+  .mob{
+    display: inline;
+  }
+
+  .star1-mob{
+    top: 97px;
+    left: 37px;
+  }
+
+  .star2-mob{
+    top: 64px;
+    left: 91px;
+  }
+
+  .star3-mob{
+    top: 557px;
+    right: 86px;
+  }
+
+  .star4-mob{
+    top: 580px;
+    right: 34px;
+  }
+
+  .bigStar-mob{
+    top: -103px;
+    right: -115px;
+  }
+
+    .top{
+        text-align: center;
+        height: 700px;
+    }
+    .transfer{
+        display: none;
+    }
+    .title {
+        padding-top: 147px;
+        font-size: 40px;
+        line-height: 120%;
+    }
+
+    .subtitle{
+        padding-bottom: 52px;
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 100%;
+    }
+
+    .title-button{
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0%;
+        padding: 16px 103px 16px 103px;
+        display: none;
+        &:hover{
+            background: $black-color;
+            color: $white-color;
+        }
+
+        &-mob{
+            display: inline;
+        }
+
+
+    }
+
+    .strip{
+        height: 51px;
+    }
+
+    .about{
+        display: none;
+    }
+
+    .mini-games{
+        &__title{
+            padding-bottom: 40px;
+            font-size: 40px;
+            line-height: 100%;
+        }
+    }
+
+    .mini-games{
+        &-box{
+            gap: 24px;
+            padding-bottom: 10px;
+        }
+    }
+
+    .game-big{
+        display: unset;
+        max-width: 343px;
+        height: 100%;
+
+        &__second{
+            padding: 29px 29px 32px 29px;
+        }
+
+        &__img{
+            max-width: 343px;
+        }
+
+        &__name{
+            font-size: 32px;
+            line-height: 100%;
+            letter-spacing: 0px;
+            padding-bottom: 16px;
+            line-height: 40px;
+        }
+
+        &__desc{
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0px;
+            padding-bottom: 32px;
+        }
+
+        &__button{
+            font-size: 16px;
+            line-height: 20px;
+            width: 285px;
+            height: 55px;
+
+            &:hover{
+                background: $black-color;
+                color: $white-color;
+            }
+
+        }
+    }
+
+    .footer{
+        height: 100px;
+
+        &__text{
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+}
