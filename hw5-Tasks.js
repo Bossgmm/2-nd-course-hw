@@ -59,16 +59,44 @@
 // userAge(age);
 
 // //Задание 5
-function stringNumb(firstStringNumber, secondStringNumber){
-    let num1 = Number(firstStringNumber);
-    let num2 = Number(secondStringNumber);
+// function stringNumb(firstStringNumber, secondStringNumber){
+//     let num1 = Number(firstStringNumber);
+//     let num2 = Number(secondStringNumber);
 
-    if (isNaN(num1) || isNaN(num2)) {
-        return 'Одно или оба значения не являются числом';
-    } else {
-        return num1 * num2;
-    }
+//     if (isNaN(num1) || isNaN(num2)) {
+//         return 'Одно или оба значения не являются числом';
+//     } else {
+//         return num1 * num2;
+//     }
+// }
+
+// let firstStringNumber = Number(prompt('Введите первое число'))
+// let secondStringNumber = Number(prompt('Введите второе число'))
+
+// //Задание 6
+// function param(n) {
+//     let nParam = Number(n);
+
+//     if (isNaN(n)){
+//         alert('Переданный параметр не является числом');
+//     }
+//     else{
+//         alert(`${n} в кубе равняется ${n ** 3}`);
+//     }
+// }
+
+// let userParam = Number(prompt('Введите число'));
+// param(userParam);
+
+//Задание 7
+let radius1 = Number(prompt('Введите радиус первой окружности'));
+let circle1 = {
+    rad : radius1 
 }
 
-let firstStringNumber = Number(prompt('Введите первое число'))
-let secondStringNumber = Number(prompt('Введите второе число'))
+let radius2 = Number(prompt('Введите радиус второй окружности'));
+let circle2 = {
+    rad : radius2
+}
+
+
