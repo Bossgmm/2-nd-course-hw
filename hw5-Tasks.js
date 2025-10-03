@@ -91,12 +91,36 @@
 //Задание 7
 let radius1 = Number(prompt('Введите радиус первой окружности'));
 let circle1 = {
-    rad : radius1 
+    rad : radius1,
+    getArea(){
+       return Math.PI * this.rad * this.rad; 
+    },
+
+    getPerimeter(){
+       return 2 * (Math.PI * this.rad) 
+
+    }
 }
+
 
 let radius2 = Number(prompt('Введите радиус второй окружности'));
 let circle2 = {
-    rad : radius2
+    rad : radius2,
+
+    getArea(){
+       return Math.PI * this.rad * this.rad; 
+    },
+
+    getPerimeter(){
+       return 2 * (Math.PI * this.rad) 
+
+    }
 }
 
+
+
+console.log(circle1.getArea());
+console.log(circle2.getArea());
+console.log(circle1.getPerimeter());
+console.log(circle2.getPerimeter());
 
