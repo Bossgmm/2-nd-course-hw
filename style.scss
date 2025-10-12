@@ -17,67 +17,66 @@ body {
   padding-right: calc(50% - 600px);
 }
 
-
-.star{
+.star {
   position: absolute;
 }
 
-.mob{
+.mob {
   display: none;
 }
 
-.bigStar{
+.bigStar {
   top: -333px;
 
   right: -488px;
 }
 
-.star1{
+.star1 {
   top: 94px;
   left: 63px;
 }
 
-.star2{
+.star2 {
   top: 69px;
   left: 156px;
 }
 
-.star3{
+.star3 {
   top: 538px;
   left: 948px;
 }
 
-.star4{
+.star4 {
   top: 568px;
   left: 1013px;
 }
 
-.line1{
+.line1 {
   top: -10px;
   right: 269px;
 }
 
-.line2{
+.line2 {
   top: 254px;
   right: 231px;
 }
 
-.line3{
+.line3 {
   top: 379px;
   right: -5px;
 }
 
-.line4{
+.line4 {
   top: 663px;
   right: 61px;
 }
 
-.triangle{
+.triangle {
   top: 468px;
   right: 113px;
 }
 
-.header{
+.header {
   position: relative;
 }
 
@@ -132,12 +131,12 @@ body {
     color: $black-color;
   }
 
-  &-mob{
+  &-mob {
     display: none;
   }
 }
 
-.strip{
+.strip {
   height: 90px;
   background-color: $g-color;
   min-width: 376px;
@@ -148,18 +147,18 @@ body {
   z-index: 2;
 }
 
-.about__BigStar{
+.about__BigStar {
   top: 77px;
   right: -142px;
   z-index: -1;
 }
 
-.about__star1{
+.about__star1 {
   top: 710px;
   left: 25px;
 }
 
-.about__star2{
+.about__star2 {
   top: 822px;
   left: 40px;
 }
@@ -217,7 +216,6 @@ body {
     padding-bottom: 10px;
     display: inline-block;
     margin-left: 32px;
-
   }
   &__name {
     padding-left: 32px;
@@ -238,7 +236,6 @@ body {
 }
 
 .games-box {
-
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
@@ -247,25 +244,24 @@ body {
     text-decoration: none;
     color: $black-color;
   }
-  
 }
 
-.mini-star1{
+.mini-star1 {
   top: 93px;
   right: 124px;
 }
 
-.mini-star2{
+.mini-star2 {
   top: 126px;
   right: 45px;
 }
 
-.mini-star3{
+.mini-star3 {
   bottom: 45px;
   right: 150px;
 }
 
-.mini-star4{
+.mini-star4 {
   bottom: 65px;
   right: 52px;
 }
@@ -302,6 +298,10 @@ body {
 
   &:nth-child(odd) {
     flex-direction: row-reverse;
+  }
+
+  &__img {
+    height: auto;
   }
 
   &__second {
@@ -359,3 +359,4 @@ body {
   }
 }
 @import "mob";
+@import "tablet";
