@@ -1,4 +1,4 @@
-@media (min-width: 444px) and (max-width: 1250px) {
+@media (min-width: 444px) and (max-width: 607px) {
   .center {
     padding-left: 70px;
     padding-right: 70px;
@@ -37,10 +37,52 @@
     right: -115px;
   }
 
+  .top{
+    text-align: center;
+  }
+
+  .title{
+    padding-top: 175px;
+    font-size: 48px;
+    line-height: 120%;
+  }
+
+  .subtitle{
+    padding-bottom: 56px;
+    font-size: 18px;
+    line-height: 100%;
+  }
+
+  .about{
+    &-title{
+      padding-top: 45px;
+      font-size: 48px;
+    }
+    &-subtitle{
+      padding-bottom: 64px;
+    }
+  }
+
+  .game{
+    max-width: 343px;
+    &__img {
+      padding-bottom: 28px;
+      max-width: 344px;
+    }
+  }
+  .mini-games{
+    padding-top: 32px;
+    &__title{
+      font-size: 48px;
+    }
+  }
+
   .mini-games-box{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 48px;
+    
   }
 
 .game-big {
@@ -53,7 +95,7 @@
     }
 
     &__img {
-      max-width: 343px;
+      max-width: 344px;
     }
 
     &__name {
@@ -86,5 +128,140 @@
 
   .strip {
       height: 51px;
+    }
+}
+
+
+@media (min-width: 608px) and (max-width: 1250px)
+{
+  .center {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .star {
+    display: none;
+  }
+
+  .mob {
+    display: inline;
+  }
+
+  .star1-mob {
+    top: 97px;
+    left: 37px;
+  }
+
+  .star2-mob {
+    top: 64px;
+    left: 91px;
+  }
+
+  .star3-mob {
+    top: 557px;
+    right: 86px;
+  }
+
+  .star4-mob {
+    top: 580px;
+    right: 34px;
+  }
+
+  .bigStar-mob {
+    top: -103px;
+    right: -115px;
+  }
+
+  // .top{
+  //   text-align: center;
+  // }
+
+  .title{
+    padding-top: 175px;
+    font-size: 54px;
+    line-height: 120%;
+  }
+
+  .subtitle{
+    padding-bottom: 56px;
+    font-size: 20px;
+    line-height: 100%;
+  }
+
+  .about{
+    &-title{
+      padding-top: 45px;
+      font-size: 48px;
+    }
+    &-subtitle{
+      padding-bottom: 64px;
+    }
+  }
+
+  .game{
+    max-width: 343px;
+    &__img {
+      padding-bottom: 28px;
+      max-width: 344px;
+    }
+  }
+  .mini-games{
+    padding-top: 32px;
+    &__title{
+      font-size: 48px;
+    }
+  }
+
+  .mini-games-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 48px;
+    
+  }
+
+.game-big {
+    display: unset;
+    max-width: 343px;
+    height: 100%;
+
+    &__second {
+      padding: 29px 29px 32px 29px;
+    }
+
+    &__img {
+      max-width: 344px;
+    }
+
+    &__name {
+      font-size: 32px;
+      line-height: 100%;
+      letter-spacing: 0px;
+      padding-bottom: 16px;
+      line-height: 40px;
+    }
+
+    &__desc {
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0px;
+      padding-bottom: 32px;
+    }
+
+    &__button {
+      font-size: 16px;
+      line-height: 20px;
+      width: 285px;
+      height: 55px;
+
+      &:hover {
+        background: $black-color;
+        color: $white-color;
+      }
+    }
+  }
+
+  .strip {
+      height: 70px;
     }
 }

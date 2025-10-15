@@ -27,7 +27,6 @@ body {
 
 .bigStar {
   top: -333px;
-
   right: -488px;
 }
 
@@ -283,6 +282,7 @@ body {
     display: grid;
     gap: 32px;
     padding-bottom: 144px;
+    justify-content: center;
   }
 }
 
@@ -336,10 +336,12 @@ body {
     letter-spacing: 0%;
     width: 274px;
     height: 66px;
+    border-color: transparent;
 
     &:hover {
       background: $white-color;
       color: $black-color;
+      border-color: $black-color;
     }
   }
 }
