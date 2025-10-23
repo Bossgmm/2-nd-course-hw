@@ -274,6 +274,7 @@ body {
   display: grid;
   gap: 32px;
   padding-bottom: 144px;
+  justify-content: center;
 }
 
 .game-big {
@@ -287,6 +288,9 @@ body {
 }
 .game-big:nth-child(odd) {
   flex-direction: row-reverse;
+}
+.game-big__img {
+  height: auto;
 }
 .game-big__second {
   padding-top: 48px;
@@ -317,10 +321,12 @@ body {
   letter-spacing: 0%;
   width: 274px;
   height: 66px;
+  border-color: transparent;
 }
 .game-big__button:hover {
   background: #ffffff;
   color: #202027;
+  border-color: #202027;
 }
 
 .footer {
@@ -337,7 +343,7 @@ body {
   letter-spacing: 0px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 443px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
@@ -413,7 +419,7 @@ body {
   }
   .mini-games-box {
     gap: 24px;
-    padding-bottom: 10px;
+    padding-bottom: 48px;
   }
   .game-big {
     display: unset;
@@ -455,5 +461,218 @@ body {
   .footer__text {
     font-size: 16px;
     font-weight: 600;
+  }
+}
+@media (min-width: 444px) and (max-width: 607px) {
+  .center {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .star {
+    display: none;
+  }
+  .mob {
+    display: inline;
+  }
+  .star1-mob {
+    top: 97px;
+    left: 37px;
+  }
+  .star2-mob {
+    top: 64px;
+    left: 91px;
+  }
+  .star3-mob {
+    top: 557px;
+    right: 86px;
+  }
+  .star4-mob {
+    top: 580px;
+    right: 34px;
+  }
+  .bigStar-mob {
+    top: -103px;
+    right: -115px;
+  }
+  .top {
+    text-align: center;
+  }
+  .title {
+    padding-top: 175px;
+    font-size: 48px;
+    line-height: 120%;
+  }
+  .subtitle {
+    padding-bottom: 56px;
+    font-size: 18px;
+    line-height: 100%;
+  }
+  .about-title {
+    padding-top: 45px;
+    font-size: 48px;
+  }
+  .about-subtitle {
+    padding-bottom: 64px;
+  }
+  .game {
+    max-width: 343px;
+  }
+  .game__img {
+    padding-bottom: 28px;
+    max-width: 344px;
+  }
+  .mini-games {
+    padding-top: 32px;
+  }
+  .mini-games__title {
+    font-size: 48px;
+  }
+  .mini-games-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 48px;
+  }
+  .game-big {
+    display: unset;
+    max-width: 343px;
+    height: 100%;
+  }
+  .game-big__second {
+    padding: 29px 29px 32px 29px;
+  }
+  .game-big__img {
+    max-width: 344px;
+  }
+  .game-big__name {
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    padding-bottom: 16px;
+    line-height: 40px;
+  }
+  .game-big__desc {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    padding-bottom: 32px;
+  }
+  .game-big__button {
+    font-size: 16px;
+    line-height: 20px;
+    width: 285px;
+    height: 55px;
+  }
+  .game-big__button:hover {
+    background: #202027;
+    color: #ffffff;
+  }
+  .strip {
+    height: 51px;
+  }
+}
+@media (min-width: 608px) and (max-width: 1250px) {
+  .center {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .star {
+    display: none;
+  }
+  .mob {
+    display: inline;
+  }
+  .star1-mob {
+    top: 97px;
+    left: 37px;
+  }
+  .star2-mob {
+    top: 64px;
+    left: 91px;
+  }
+  .star3-mob {
+    top: 557px;
+    right: 86px;
+  }
+  .star4-mob {
+    top: 580px;
+    right: 34px;
+  }
+  .bigStar-mob {
+    top: -103px;
+    right: -115px;
+  }
+  .title {
+    padding-top: 175px;
+    font-size: 54px;
+    line-height: 120%;
+  }
+  .subtitle {
+    padding-bottom: 56px;
+    font-size: 20px;
+    line-height: 100%;
+  }
+  .about-title {
+    padding-top: 45px;
+    font-size: 48px;
+  }
+  .about-subtitle {
+    padding-bottom: 64px;
+  }
+  .game {
+    max-width: 343px;
+  }
+  .game__img {
+    padding-bottom: 28px;
+    max-width: 344px;
+  }
+  .mini-games {
+    padding-top: 32px;
+  }
+  .mini-games__title {
+    font-size: 48px;
+  }
+  .mini-games-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 48px;
+  }
+  .game-big {
+    display: unset;
+    max-width: 343px;
+    height: 100%;
+  }
+  .game-big__second {
+    padding: 29px 29px 32px 29px;
+  }
+  .game-big__img {
+    max-width: 344px;
+  }
+  .game-big__name {
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    padding-bottom: 16px;
+    line-height: 40px;
+  }
+  .game-big__desc {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    padding-bottom: 32px;
+  }
+  .game-big__button {
+    font-size: 16px;
+    line-height: 20px;
+    width: 285px;
+    height: 55px;
+  }
+  .game-big__button:hover {
+    background: #202027;
+    color: #ffffff;
+  }
+  .strip {
+    height: 70px;
   }
 }/*# sourceMappingURL=style.css.map */
