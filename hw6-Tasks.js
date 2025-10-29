@@ -47,7 +47,7 @@ console.log(arr5);
 let arr6 = [9, 8, 7, "a", 6, 5];
 console.log(arr6);
 
-arr6.sort();
+arr6.sort((a, b) => a - b);
 console.log(arr6);
 
 let arrFil = arr6.filter((item) => item != "a");
@@ -69,6 +69,8 @@ let arr8 = arrString.split("");
 console.log(arr8);
 let arrReverse = arr8.reverse();
 console.log(arrReverse);
+let word = arrReverse.join();
+console.log(word);
 
 // Задание 9
 let arr9 = [
