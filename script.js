@@ -20,7 +20,7 @@
 // alert(e / c);
 
 // //Задание 5
-// let result = c**5;
+// let result = c ** 5;
 // alert(result);
 
 // //Задание 6
@@ -44,23 +44,21 @@
 
 // //Задание 9
 // let user = {
-//     name: 'Мурад',
-//     age: 20,
-//     isAdmin: true
-// }
+//   name: "Мурад",
+//   age: 20,
+//   isAdmin: true,
+// };
 
 // //Задание 10
 // let greeting = prompt("Как тебя зовут?");
 // alert(`Привет, ${greeting}!!!`);
-
-
 
 // // Допю задание
 // let Stnumber = prompt("Загадай любое число");
 // let number = Stnumber * 2;
 // alert(number);
 
-// let ndNumber; 
+// let ndNumber;
 // ndNumber = number + 10;
 // alert(ndNumber);
 
@@ -69,6 +67,6 @@
 // alert(thNumber);
 
 // let number4;
-// number4 = thNumber - Stnumber
+// number4 = thNumber - Stnumber;
 // let message = `Ваше число ${number4}`;
 // alert(message);
