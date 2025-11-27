@@ -1,6 +1,13 @@
 const elem = ["камень", "ножницы", "бумага"];
 function startRockSaperScissors () {
     let userAnswer = prompt(`Выберите: ${elem}`).toLowerCase();
+    do {
+        userAnswer = prompt(`Выберите: ${elem.join(', ')}`).toLowerCase();
+        if (!elem.includes(userAnswer)) {
+            alert("Ошибка! Пожалуйста, введите одно из следующих значений: камень, ножницы, бумага.");
+        }
+    } while (!elem.includes(userAnswer));
+
     let computerAnswer = randomComputerAnswer(elem);
 
     console.log(userAnswer);
@@ -13,9 +20,9 @@ function startRockSaperScissors () {
         (userAnswer === "ножницы" && computerAnswer === "бумага") ||
         (userAnswer === "бумага" && computerAnswer === "камень")
     ) {
-        alert("Вы выиграли!");
+        alert(`Вы выиграли! \nКомпьютер = ${computerAnswer} \n Вы = ${userAnswer}`);
     } else {
-        alert("Вы проиграли!");
+        alert(`Вы проиграли!! \nКомпьютер = ${computerAnswer} \n Вы = ${userAnswer}`);
     }
 
 }
