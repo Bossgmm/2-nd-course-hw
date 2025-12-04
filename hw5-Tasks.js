@@ -21,7 +21,7 @@
 //     } else {
 //        return alert('Ваше число нечётное');
 //     }
-    
+
 // }
 
 // let evenOddNumber;
@@ -49,7 +49,6 @@
 //        return alert('Добро пожаловать!');
 //     }
 // }
-
 
 // let age;
 // age = Number(prompt('Введите свой возвраст'));
@@ -88,7 +87,7 @@
 // let circle1 = {
 //     rad : radius1,
 //     getArea(){
-//        return Math.PI * this.rad * this.rad; 
+//        return Math.PI * this.rad * this.rad;
 //     },
 
 //     getPerimeter(){
@@ -96,14 +95,13 @@
 
 //     }
 // }
-
 
 // let radius2 = Number(prompt('Введите радиус второй окружности'));
 // let circle2 = {
 //     rad : radius2,
 
 //     getArea(){
-//        return Math.PI * this.rad * this.rad; 
+//        return Math.PI * this.rad * this.rad;
 //     },
 
 //     getPerimeter(){
@@ -112,10 +110,7 @@
 //     }
 // }
 
-
-
 // console.log(circle1.getArea());
 // console.log(circle2.getArea());
 // console.log(circle1.getPerimeter());
 // console.log(circle2.getPerimeter());
-
