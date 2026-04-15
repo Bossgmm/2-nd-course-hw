@@ -9,12 +9,20 @@ function startGuessGame() {
   let userNumb = null;
 
   while (guessNumb != userNumb) {
-    userNumb = Number(prompt("Угадай число от 0 до 100:"));
+    let userInput = prompt("Угадай число от 0 до 100:");
+    
+    // Проверка, является ли введённое значение числом
+    if (!userInput || isNaN(userInput)) {
+      alert("Ошибка: пожалуйста, введите корректное число!");
+      continue;
+    }
+
+    userNumb = Number(userInput);
 
     if (guessNumb > userNumb) {
       alert("Больше");
     } else if (guessNumb < userNumb) {
-      alert("Мнеьше");
+      alert("Меньше");
     } else {
       alert("Поздравляю !!!");
       break;
